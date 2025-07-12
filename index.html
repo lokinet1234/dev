@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Wiki - Personal Reference</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="theme-toggle">
+                <button id="theme-toggle" class="theme-button" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <h1 class="holographic-title">Legal Wiki</h1>
+            <p class="subtitle">Personal Reference & Legal Resources</p>
+        </header>
+
+        <main class="main-content">
+            <section class="intro-section">
+                <h2>Welcome to My Legal Reference</h2>
+                <p>This is a personal wiki and blog focusing on legal topics, constitutional law, and professional resources. Navigate through the articles below or use the horizontal card browser to explore different topics.</p>
+            </section>
+
+            <section class="cards-section">
+                <h2>Browse Articles</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Legal Basics</h3>
+                        <p>Fundamental concepts in law, legal terminology, and basic principles that form the foundation of legal understanding.</p>
+                        <a href="articles/legal-basics.html" class="card-link">Read More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Contract Law</h3>
+                        <p>Understanding contracts, agreements, obligations, and the legal framework governing business relationships.</p>
+                        <a href="articles/contract-law.html" class="card-link">Read More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Property Law</h3>
+                        <p>Real estate, intellectual property, ownership rights, and the legal aspects of property transactions.</p>
+                        <a href="articles/property-law.html" class="card-link">Read More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Constitutional Law</h3>
+                        <p>The supreme law of the land, fundamental rights, governmental powers, and constitutional interpretation.</p>
+                        <a href="articles/constitutional-law.html" class="card-link">Read More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Legal Documents</h3>
+                        <p>Sample legal documents, templates, and reference materials for various legal procedures and filings.</p>
+                        <a href="#" class="card-link" onclick="openPDFSection()">View PDFs</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pdf-section" id="pdf-section">
+                <h2>Legal Documents & PDFs</h2>
+                <div class="pdf-grid">
+                    <div class="pdf-item">
+                        <h3>Sample Legal Document</h3>
+                        <p>A reference legal document for educational purposes.</p>
+                        <iframe src="assets/sample-legal-doc.pdf" width="100%" height="400" frameborder="0"></iframe>
+                        <a href="assets/sample-legal-doc.pdf" target="_blank" class="pdf-link">Open in New Tab</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="quick-links">
+                <h2>Quick Navigation</h2>
+                <nav class="nav-grid">
+                    <a href="articles/legal-basics.html" class="nav-item">Legal Basics</a>
+                    <a href="articles/contract-law.html" class="nav-item">Contract Law</a>
+                    <a href="articles/property-law.html" class="nav-item">Property Law</a>
+                    <a href="articles/constitutional-law.html" class="nav-item">Constitutional Law</a>
+                </nav>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Legal Wiki - Personal Reference. For educational purposes only.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
