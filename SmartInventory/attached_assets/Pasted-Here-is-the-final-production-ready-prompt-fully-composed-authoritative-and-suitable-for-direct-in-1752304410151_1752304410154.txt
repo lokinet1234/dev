@@ -1,0 +1,35 @@
+Here is the final, production-ready prompt—fully composed, authoritative, and suitable for direct input into any website builder, code generation AI, or developer brief. It reflects all your specifications in clear, directive language:
+
+⸻
+
+✅ FINAL PROMPT — Minimal Grid-Based Personal Wiki/Legal Blog Website (HTML/CSS/JavaScript Only)
+
+Construct a lightweight, static website using only HTML, CSS, and vanilla JavaScript—no external frameworks, libraries, or build tools. This site is not for long-term deployment; it will serve as a personal Wikipedia-style reference, legal resource, blog, and PDF archive, designed for ease of use and clarity.
+
+🖥️ Layout & Design:
+	•	Use a grid-based system (preferably CSS Grid) to ensure precise, modular alignment of all elements.
+	•	All content must be left-aligned, with consistent spacing, padding, and alignment based on grid units (e.g., 8px, 1rem, or modular scale).
+	•	Begin in dark mode by default, with a toggle switch to enable light mode. Implement this using CSS variables and vanilla JavaScript only.
+	•	The website should have a clean, typographically focused appearance with no visual clutter—resembling a “Clean Slate” design philosophy.
+
+🌈 Visual Elements:
+	•	Display a holographic-effect title at the top using only CSS techniques (e.g., gradient text, blend modes, or keyframe shimmer).
+	•	Include a horizontally scrolling card section below the title. Each card should represent a blog entry, legal article, or document summary.
+	•	All content—titles, text blocks, cards—must follow the same underlying grid for alignment and rhythm.
+
+📄 Content Features:
+	•	Allow for the embedding of PDF files (either inline with <iframe> or linked).
+	•	Include 2–5 static HTML pages manually coded to function like separate wiki entries or articles.
+	•	Each page must support long-form text, styled for maximum readability using elegant, system-safe fonts.
+
+⚙️ Functional Constraints:
+	•	No backend, no CMS, no databases, no login systems—only static files.
+	•	Use semantic HTML5 tags throughout.
+	•	Ensure the site is fully responsive and mobile-friendly.
+	•	No use of libraries like Bootstrap, Tailwind, React, Vue, or jQuery.
+
+The resulting site should be easy to edit, minimal in complexity, and deployable to static platforms like GitHub Pages or Netlify without additional tooling.
+
+⸻
+
+This is the complete, QSKF-compliant prompt. Shall you now proceed with using it in a generation tool, or would you prefer that I execute it directly into code?
